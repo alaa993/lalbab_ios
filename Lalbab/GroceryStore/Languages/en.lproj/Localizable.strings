@@ -1,0 +1,160 @@
+/*
+  Localizable.strings
+  Grocery Store
+
+  Created by subhashsanghani on 7/29/17.
+  Copyright © 2017 Way. All rights reserved.
+*/
+/*
+ Localizable.strings
+ Grocery Store
+ 
+ Created by subhashsanghani on 7/29/17.
+ Copyright © 2017 Way. All rights reserved.
+ */
+"lg" = "en";
+
+"Error!" = "Error!3";
+"Loading" = "Loading";
+"Ok" = "Ok";
+"Empty" = "Empty";
+"Internet!" = "Internet!";
+"Confirm" = "Confirm";
+"No" = "No";
+"Remove" = "Remove";
+"Cancel" = "Cancel";
+"Success" = "Success";
+"Grocery Store" = "Grocery Store";
+"Glocery" = "Glocery";
+"Code" = "Code";
+
+"My Requests" = "My Requests";
+"My Shop" = "My Shop";
+"Edit" = "Edit";
+"Note seler" = "Note seler";
+"Note" = "Note";
+"Order Changed" = "";
+"The order Changed successfully" = "The order Changed successfully";
+"Failed" = "Failed";
+"Failed Internet" = "Failed Internet";
+
+"Is Live" = "Is Live";
+"Offline" = "Offline";
+
+
+"User" = "User";
+"No internet connection available.." = "No internet connection available..";
+"New Address" = "New Address";
+"Please Enter Address" = "Please Enter Address";
+"Please Choose Socity" = "Please Choose Socity";
+"No any items in your Cart" = "No any items in your Cart";
+"Language Preference" = "Language Preference";
+"Select your preferred language" = "Select your preferred language";
+"Choose Date" = "Choose Date";
+"Date must be greater than current date" = "Date must be greater than current date";
+"Total" = "Total";
+"Cart" = "Continue Cart";
+"Empty Cart" = "Empty Cart";
+"Are you sure to remove all items from cart" = "Are you sure to remove all items from cart";
+"Item" = "Item";
+"Price per" = "Price per";
+"Order Limit" = "Order Limit";
+"Order must between" = "Order must between";
+"To" = "To";
+"Change Password" = "Change Password";
+"Please Enter Current Password" = "Please Enter Current Password";
+"Please Enter New Password" = "Please Enter New Password";
+"Please Enter New Password Again" = "Please Enter New Password Again";
+"Please Enter New Password Again not march with New Password" = "Please Enter New Password Again not march with New Password";
+"Choose Socity" = "Choose Socity";
+"Choose Time" = "Choose Time";
+"Receiver Name" = "Receiver Name";
+"Receiver Mobile No." = "Receiver Mobile No.";
+"Pincode" = "Pincode";
+"House No." = "House No.";
+"Socity" = "Socity";
+"Items" = "Items";
+"Amount" = "Price";
+"Delivery Charges" = "Delivery Charges";
+"Total Amount" = "Total Amount";
+"Please Choose Delivery Date" = "Please Choose Delivery Date";
+"Please Choose Delivery Time" = "Please Choose Delivery Time";
+"Please Choose Delivery Location" = "Please Choose Delivery Location";
+"Delivery" = "Delivery";
+"Delivery Date" = "Delivery Date";
+"Delivery Time" = "Delivery Time";
+"Address" = "Address";
+
+"My Profile" = "My Profile";
+"My Orders" = "My Orders";
+"Logout" = "Logout";
+"Login Now" = "Login Now";
+"Support" = "Support";
+"About Us" = "About Us";
+"Terms & Condition" = "Terms & Condition";
+"Review Us" = "Review Us";
+"Share with Friends" = "Share with Friends";
+"Are you sure wont to logout ?" = "Are you sure wont to logout ?";
+"Please Enter Password" = "Please Enter Password";
+"Please Enter User Name" = "Please Enter User Name";
+"Recovery Mail Sent Successfully to your registered email" = "Recovery Mail Sent Successfully to your registered email";
+"Order No." = "Order No.";
+"Date" = "Date";
+"Time" = "Time";
+"Pending" = "Pending";
+"Confirm" = "Confirm";
+"Delivered" = "Delivered";
+"Cancel Order" = "Cancel Order";
+"Order Details" = "Order Details";
+"Qty" = "Qty";
+"Search" = "Search";
+"Add" = "Add";
+"Update" = "Update";
+"Register" = "Register";
+"Please Enter Phone Number" = "Please Enter Phone Number";
+"Please Enter Password" = "Please Enter Password";
+"Please Enter User Name" = "Please Enter User Name";
+"Please Enter Email Id" = "Please Enter Email Id";
+"Update Profile" = "Update Profile";
+
+"CONTINUE CHECKOUT" = "CONTINUE CHECKOUT";
+"Delivery Date :" = "Delivery Date :";
+"Delivery Time :" = "Delivery Time :";
+"Delivery Address" = "Delivery Address";
+
+"Receiver Name(Required)" = "Receiver Name(Required)";
+"Receiver Mobile Number(Required)" = "Receiver Mobile Number(Required)";
+"Pincode/Area Code/Zip (Required)" = "Pincode/Area Code/Zip (Required)";
+"Society/Flat(Required)" = "Society/Flat(Required)";
+"House Number(Required)" = "House Number(Required)";
+"ADD DELIVERY ADDRESS" = "ADD DELIVERY ADDRESS";
+
+"Delivery Date and Time" = "Delivery Date and Time";
+"Total items and amount" = "Total items and amount";
+"ORDER NOW" = "ORDER NOW";
+"Thank you for your order." = "Thank you for your order.";
+"CONTINUE HOME" = "CONTINUE HOME";
+"TRACK MY ORDER" = "TRACK MY ORDER";
+
+"Email address" = "Email address";
+"Password" = "Password";
+"LOGIN NOW" = "LOGIN NOW";
+"REGISTER NEW USER" = "REGISTER NEW USER";
+"FORGOT MY PASSWORD" = "FORGOT MY PASSWORD";
+
+"Register Now" = "Register Now";
+"Your full name" = "Your full name";
+"Your phone" = "Your phone";
+"Create password" = "Create password";
+"UPDATE" = "UPDATE";
+"Cancel Order" = "Cancel Order";
+"Summery" = "Summery";
+
+"Current Password" = "Current Password";
+"New Password" = "New Password";
+"Re Enter Password" = "Re Enter Password";
+
+"Search Vegetables, Fruit etc.." = "Search Vegetables, Fruit etc..";
+"Products" = "Products";
+"Clear All Products" = "Clear All Products";
+"Contact us" = "Contact us";

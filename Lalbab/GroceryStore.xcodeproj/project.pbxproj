@@ -1,0 +1,1385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4017324F1F2A1A5E0084C367 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4017324E1F2A1A5E0084C367 /* main.m */; };
+		401732521F2A1A5E0084C367 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 401732511F2A1A5E0084C367 /* AppDelegate.m */; };
+		401732551F2A1A5E0084C367 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 401732541F2A1A5E0084C367 /* ViewController.m */; };
+		401732581F2A1A5E0084C367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401732561F2A1A5E0084C367 /* Main.storyboard */; };
+		4017325A1F2A1A5E0084C367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401732591F2A1A5E0084C367 /* Assets.xcassets */; };
+		4017325D1F2A1A5E0084C367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4017325B1F2A1A5E0084C367 /* LaunchScreen.storyboard */; };
+		401732681F2A1A5E0084C367 /* Grocery_StoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 401732671F2A1A5E0084C367 /* Grocery_StoreTests.m */; };
+		401732731F2A1A5E0084C367 /* Grocery_StoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 401732721F2A1A5E0084C367 /* Grocery_StoreUITests.m */; };
+		401732961F2A220D0084C367 /* BaseCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 401732841F2A220D0084C367 /* BaseCart.m */; };
+		401732971F2A220D0084C367 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 401732861F2A220D0084C367 /* BaseVC.m */; };
+		401732981F2A220D0084C367 /* LocalizationSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 401732891F2A220D0084C367 /* LocalizationSystem.m */; };
+		401732991F2A220D0084C367 /* LocalizeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4017328B1F2A220D0084C367 /* LocalizeButton.m */; };
+		4017329A1F2A220D0084C367 /* LocalizeButton2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4017328D1F2A220D0084C367 /* LocalizeButton2.m */; };
+		4017329B1F2A220D0084C367 /* LocalizeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4017328F1F2A220D0084C367 /* LocalizeLabel.m */; };
+		4017329C1F2A220D0084C367 /* MKNumberBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 401732911F2A220D0084C367 /* MKNumberBadgeView.m */; };
+		4017329D1F2A220D0084C367 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 401732931F2A220D0084C367 /* Reachability.m */; };
+		4017329E1F2A220D0084C367 /* RoundedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 401732951F2A220D0084C367 /* RoundedTextField.m */; };
+		401732A21F2A226F0084C367 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 401732A11F2A226F0084C367 /* AsyncImageView.m */; };
+		401732A81F2A23470084C367 /* CartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 401732A51F2A23470084C367 /* CartCell.m */; };
+		401732A91F2A23470084C367 /* CartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 401732A71F2A23470084C367 /* CartVC.m */; };
+		4023C5311F32DDCE0045DBF8 /* ThanksScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4023C5301F32DDCE0045DBF8 /* ThanksScreenVC.m */; };
+		4048FB211F319848004666D9 /* InfoPagesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4048FB201F319848004666D9 /* InfoPagesVC.m */; };
+		4048FB241F31D3C1004666D9 /* radio_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 4048FB221F31D3C1004666D9 /* radio_checked.png */; };
+		4048FB251F31D3C1004666D9 /* radio.png in Resources */ = {isa = PBXBuildFile; fileRef = 4048FB231F31D3C1004666D9 /* radio.png */; };
+		4048FB281F32194A004666D9 /* ConfirmDeliveryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4048FB271F32194A004666D9 /* ConfirmDeliveryVC.m */; };
+		404958611F2F07C50008C7C1 /* ic_change_password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4049584D1F2F07C50008C7C1 /* ic_change_password.png */; };
+		404958621F2F07C50008C7C1 /* ic_exit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4049584E1F2F07C50008C7C1 /* ic_exit.png */; };
+		404958631F2F07C50008C7C1 /* ic_less.png in Resources */ = {isa = PBXBuildFile; fileRef = 4049584F1F2F07C50008C7C1 /* ic_less.png */; };
+		404958641F2F07C50008C7C1 /* ic_more.png in Resources */ = {isa = PBXBuildFile; fileRef = 404958501F2F07C50008C7C1 /* ic_more.png */; };
+		404958651F2F07C50008C7C1 /* ic_nav_about.png in Resources */ = {isa = PBXBuildFile; fileRef = 404958511F2F07C50008C7C1 /* ic_nav_about.png */; };
+		404958661F2F07C50008C7C1 /* ic_nav_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 404958521F2F07C50008C7C1 /* ic_nav_home.png */; };
+		404958671F2F07C50008C7C1 /* ic_nav_order.png in Resources */ = {isa = PBXBuildFile; fileRef = 404958531F2F07C50008C7C1 /* ic_nav_order.png */; };
+		404958681F2F07C50008C7C1 /* ic_nav_policy.png in Resources */ = {isa = PBXBuildFile; fileRef = 404958541F2F07C50008C7C1 /* ic_nav_policy.png */; };
+		404958691F2F07C50008C7C1 /* ic_nav_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 404958551F2F07C50008C7C1 /* ic_nav_profile.png */; };
+		4049586A1F2F07C50008C7C1 /* ic_nav_review.png in Resources */ = {isa = PBXBuildFile; fileRef = 404958561F2F07C50008C7C1 /* ic_nav_review.png */; };
+		4049586B1F2F07C50008C7C1 /* ic_nav_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 404958571F2F07C50008C7C1 /* ic_nav_share.png */; };
+		4049586C1F2F07C50008C7C1 /* ic_nav_support.png in Resources */ = {isa = PBXBuildFile; fileRef = 404958581F2F07C50008C7C1 /* ic_nav_support.png */; };
+		4049586D1F2F07C50008C7C1 /* ic_notification.png in Resources */ = {isa = PBXBuildFile; fileRef = 404958591F2F07C50008C7C1 /* ic_notification.png */; };
+		4049586E1F2F07C50008C7C1 /* ic_remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 4049585A1F2F07C50008C7C1 /* ic_remove.png */; };
+		4049586F1F2F07C50008C7C1 /* ic_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 4049585B1F2F07C50008C7C1 /* ic_search.png */; };
+		404958701F2F07C50008C7C1 /* ic_timeslot_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 4049585C1F2F07C50008C7C1 /* ic_timeslot_07.png */; };
+		404958711F2F07C50008C7C1 /* ic_timeslot_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 4049585D1F2F07C50008C7C1 /* ic_timeslot_17.png */; };
+		404958721F2F07C50008C7C1 /* ic_timeslot_27.png in Resources */ = {isa = PBXBuildFile; fileRef = 4049585E1F2F07C50008C7C1 /* ic_timeslot_27.png */; };
+		404958731F2F07C50008C7C1 /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 4049585F1F2F07C50008C7C1 /* arrow_right.png */; };
+		404958741F2F07C50008C7C1 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 404958601F2F07C50008C7C1 /* cart.png */; };
+		404958781F2F37650008C7C1 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404958771F2F37650008C7C1 /* LeftMenuViewController.m */; };
+		4049587E1F2F49170008C7C1 /* ChoosetimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4049587B1F2F49170008C7C1 /* ChoosetimeVC.m */; };
+		4049587F1F2F49170008C7C1 /* TimeslotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4049587D1F2F49170008C7C1 /* TimeslotCell.m */; };
+		404958821F2F49670008C7C1 /* CalenderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 404958811F2F49670008C7C1 /* CalenderVC.m */; };
+		404958861F2F7C150008C7C1 /* ChooseSocityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 404958851F2F7C150008C7C1 /* ChooseSocityVC.m */; };
+		404958891F2F7CD90008C7C1 /* LocalityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 404958881F2F7CD90008C7C1 /* LocalityCell.m */; };
+		4049588C1F2F7E6B0008C7C1 /* AddAddressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4049588B1F2F7E6B0008C7C1 /* AddAddressVC.m */; };
+		4049588F1F2F82150008C7C1 /* DeliveryDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4049588E1F2F82150008C7C1 /* DeliveryDetailsVC.m */; };
+		409FE2A61F34766F0068A37B /* search_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 409FE2A51F34766F0068A37B /* search_icon.png */; };
+		409FE2A91F347F330068A37B /* SearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 409FE2A81F347F330068A37B /* SearchVC.m */; };
+		409FE2B31F349D250068A37B /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 409FE2AA1F349D250068A37B /* 29.png */; };
+		409FE2B41F349D250068A37B /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 409FE2AB1F349D250068A37B /* 40.png */; };
+		409FE2B51F349D250068A37B /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 409FE2AC1F349D250068A37B /* 58.png */; };
+		409FE2B61F349D250068A37B /* 60.png in Resources */ = {isa = PBXBuildFile; fileRef = 409FE2AD1F349D250068A37B /* 60.png */; };
+		409FE2B71F349D250068A37B /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 409FE2AE1F349D250068A37B /* 80.png */; };
+		409FE2B81F349D250068A37B /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 409FE2AF1F349D250068A37B /* 87.png */; };
+		409FE2B91F349D250068A37B /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 409FE2B01F349D250068A37B /* 114.png */; };
+		409FE2BA1F349D250068A37B /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 409FE2B11F349D250068A37B /* 120.png */; };
+		409FE2BB1F349D250068A37B /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 409FE2B21F349D250068A37B /* 180.png */; };
+		409FE2BD1F349D970068A37B /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 409FE2BC1F349D970068A37B /* 57.png */; };
+		40DC3FBA1F2DA7A900C6B9B4 /* ProductPagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DC3FB91F2DA7A900C6B9B4 /* ProductPagerVC.m */; };
+		40DC3FBD1F2DA9D700C6B9B4 /* ProductListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DC3FBC1F2DA9D700C6B9B4 /* ProductListVC.m */; };
+		40E61B3A1F2CA2490008EA60 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40E61B3C1F2CA2490008EA60 /* Localizable.strings */; };
+		40E61B401F2CA4850008EA60 /* CategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E61B3F1F2CA4850008EA60 /* CategoryCell.m */; };
+		40F7460B1F3049B200CB2763 /* AddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F7460A1F3049B200CB2763 /* AddressCell.m */; };
+		40F746111F30512200CB2763 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F7460E1F30512200CB2763 /* LoginVC.m */; };
+		40F746121F30512200CB2763 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F746101F30512200CB2763 /* RegisterVC.m */; };
+		40F746141F30605400CB2763 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F746131F30605400CB2763 /* ic_launcher.png */; };
+		40F7461C1F30985400CB2763 /* ChangePasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F746171F30985400CB2763 /* ChangePasswordVC.m */; };
+		40F7461E1F30985400CB2763 /* UpdateProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F7461B1F30985400CB2763 /* UpdateProfileVC.m */; };
+		40F746241F309A3000CB2763 /* MyOrdersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F746221F309A3000CB2763 /* MyOrdersVC.m */; };
+		40F746271F309A4700CB2763 /* MyOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F746261F309A4700CB2763 /* MyOrderCell.m */; };
+		40F7462A1F30AE8E00CB2763 /* OrderDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F746291F30AE8E00CB2763 /* OrderDetailsVC.m */; };
+		40F7462D1F30B2BE00CB2763 /* OrderDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F7462C1F30B2BE00CB2763 /* OrderDetailsCell.m */; };
+		612F2B4623FC95A300AAF531 /* Category_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F2B4523FC95A300AAF531 /* Category_Cell.m */; };
+		6147A4CF2490F1F10028285F /* 777.png in Resources */ = {isa = PBXBuildFile; fileRef = 6147A4CE2490F1F00028285F /* 777.png */; };
+		6149DAB524ACFA6000F4DE20 /* CatS.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149DAB424ACFA6000F4DE20 /* CatS.m */; };
+		6149DAB924ACFEE800F4DE20 /* CatSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149DAB824ACFEE800F4DE20 /* CatSCell.m */; };
+		61659D76245B056000ACE21C /* ContactUsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61659D75245B056000ACE21C /* ContactUsController.m */; };
+		616A7DFA248F6AE1005A802C /* dawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 616A7DF9248F6AE0005A802C /* dawa.jpg */; };
+		616A7DFD248F6CF3005A802C /* ControleDawaa.m in Sources */ = {isa = PBXBuildFile; fileRef = 616A7DFC248F6CF3005A802C /* ControleDawaa.m */; };
+		616F6AC8241578C90043E067 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 616F6AC7241578C90043E067 /* countries.json */; };
+		616F6AD0241578E00043E067 /* CountryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 616F6ACA241578E00043E067 /* CountryCell.m */; };
+		616F6AD1241578E00043E067 /* CountryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616F6ACB241578E00043E067 /* CountryListViewController.m */; };
+		616F6AD2241578E00043E067 /* CountryListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 616F6ACD241578E00043E067 /* CountryListViewController.xib */; };
+		616F6AD3241578E00043E067 /* CountryListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 616F6ACE241578E00043E067 /* CountryListDataSource.m */; };
+		61787486262ED95D00C8995B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61787485262ED95D00C8995B /* GoogleService-Info.plist */; };
+		618B975A244482050076268D /* swiftlogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618B9759244482050076268D /* swiftlogin.swift */; };
+		61CEFD04248FA35600B2680E /* 5555.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CEFD03248FA35500B2680E /* 5555.png */; };
+		846A6A2F2370B2FF009B7134 /* MySwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A6A2E2370B2FF009B7134 /* MySwiftClass.swift */; };
+		84800A40238F2C2200DA83E3 /* MyRequestsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84800A3F238F2C2200DA83E3 /* MyRequestsVC.m */; };
+		849A170A238EEC1E0025E6F9 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A1709238EEC1E0025E6F9 /* Common.m */; };
+		849A170D238EEDC70025E6F9 /* Languge.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A170C238EEDC70025E6F9 /* Languge.m */; };
+		84BA9B19239418730044F8A6 /* ProductShopPagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA9B18239418730044F8A6 /* ProductShopPagerVC.m */; };
+		84BA9B1B239418940044F8A6 /* ProductShopListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA9B1A239418940044F8A6 /* ProductShopListVC.m */; };
+		84F7A487239013E90048F4CC /* RequestDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F7A486239013E90048F4CC /* RequestDetailsVC.m */; };
+		E430BE1FE07698526FB6DBAE /* Pods_GroceryStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5107703407FC7F2A45FF72F5 /* Pods_GroceryStore.framework */; };
+		ED96EF3D23C53F6600E583C3 /* CartCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = ED96EF3C23C53F6600E583C3 /* CartCell2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		401732641F2A1A5E0084C367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 401732421F2A1A5E0084C367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 401732491F2A1A5E0084C367;
+			remoteInfo = "Grocery Store";
+		};
+		4017326F1F2A1A5E0084C367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 401732421F2A1A5E0084C367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 401732491F2A1A5E0084C367;
+			remoteInfo = "Grocery Store";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20BDFE4917F06BCED4CCABF3 /* Pods-GroceryStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroceryStore/Pods-GroceryStore.debug.xcconfig"; sourceTree = "<group>"; };
+		4017324A1F2A1A5E0084C367 /* Lalbab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lalbab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4017324E1F2A1A5E0084C367 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		401732501F2A1A5E0084C367 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		401732511F2A1A5E0084C367 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		401732531F2A1A5E0084C367 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		401732541F2A1A5E0084C367 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		401732571F2A1A5E0084C367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		401732591F2A1A5E0084C367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4017325C1F2A1A5E0084C367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4017325E1F2A1A5E0084C367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401732631F2A1A5E0084C367 /* GroceryStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		401732671F2A1A5E0084C367 /* Grocery_StoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grocery_StoreTests.m; sourceTree = "<group>"; };
+		401732691F2A1A5E0084C367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4017326E1F2A1A5E0084C367 /* GroceryStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		401732721F2A1A5E0084C367 /* Grocery_StoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grocery_StoreUITests.m; sourceTree = "<group>"; };
+		401732741F2A1A5E0084C367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401732811F2A220D0084C367 /* API_Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API_Parameters.h; sourceTree = "<group>"; };
+		401732821F2A220D0084C367 /* API_Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API_Settings.h; sourceTree = "<group>"; };
+		401732831F2A220D0084C367 /* BaseCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCart.h; sourceTree = "<group>"; };
+		401732841F2A220D0084C367 /* BaseCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCart.m; sourceTree = "<group>"; };
+		401732851F2A220D0084C367 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		401732861F2A220D0084C367 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		401732871F2A220D0084C367 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		401732881F2A220D0084C367 /* LocalizationSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizationSystem.h; sourceTree = "<group>"; };
+		401732891F2A220D0084C367 /* LocalizationSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizationSystem.m; sourceTree = "<group>"; };
+		4017328A1F2A220D0084C367 /* LocalizeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizeButton.h; sourceTree = "<group>"; };
+		4017328B1F2A220D0084C367 /* LocalizeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizeButton.m; sourceTree = "<group>"; };
+		4017328C1F2A220D0084C367 /* LocalizeButton2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizeButton2.h; sourceTree = "<group>"; };
+		4017328D1F2A220D0084C367 /* LocalizeButton2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizeButton2.m; sourceTree = "<group>"; };
+		4017328E1F2A220D0084C367 /* LocalizeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizeLabel.h; sourceTree = "<group>"; };
+		4017328F1F2A220D0084C367 /* LocalizeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizeLabel.m; sourceTree = "<group>"; };
+		401732901F2A220D0084C367 /* MKNumberBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNumberBadgeView.h; sourceTree = "<group>"; };
+		401732911F2A220D0084C367 /* MKNumberBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNumberBadgeView.m; sourceTree = "<group>"; };
+		401732921F2A220D0084C367 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		401732931F2A220D0084C367 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		401732941F2A220D0084C367 /* RoundedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedTextField.h; sourceTree = "<group>"; };
+		401732951F2A220D0084C367 /* RoundedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedTextField.m; sourceTree = "<group>"; };
+		401732A01F2A226F0084C367 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		401732A11F2A226F0084C367 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		401732A41F2A23470084C367 /* CartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartCell.h; sourceTree = "<group>"; };
+		401732A51F2A23470084C367 /* CartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartCell.m; sourceTree = "<group>"; };
+		401732A61F2A23470084C367 /* CartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartVC.h; sourceTree = "<group>"; };
+		401732A71F2A23470084C367 /* CartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartVC.m; sourceTree = "<group>"; };
+		4023C52F1F32DDCE0045DBF8 /* ThanksScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThanksScreenVC.h; path = Delivery/ThanksScreenVC.h; sourceTree = "<group>"; };
+		4023C5301F32DDCE0045DBF8 /* ThanksScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThanksScreenVC.m; path = Delivery/ThanksScreenVC.m; sourceTree = "<group>"; };
+		4048FB1F1F319848004666D9 /* InfoPagesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoPagesVC.h; path = InfoPages/InfoPagesVC.h; sourceTree = "<group>"; };
+		4048FB201F319848004666D9 /* InfoPagesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoPagesVC.m; path = InfoPages/InfoPagesVC.m; sourceTree = "<group>"; };
+		4048FB221F31D3C1004666D9 /* radio_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_checked.png; sourceTree = "<group>"; };
+		4048FB231F31D3C1004666D9 /* radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio.png; sourceTree = "<group>"; };
+		4048FB261F32194A004666D9 /* ConfirmDeliveryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfirmDeliveryVC.h; path = Delivery/ConfirmDeliveryVC.h; sourceTree = "<group>"; };
+		4048FB271F32194A004666D9 /* ConfirmDeliveryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfirmDeliveryVC.m; path = Delivery/ConfirmDeliveryVC.m; sourceTree = "<group>"; };
+		4049584D1F2F07C50008C7C1 /* ic_change_password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_change_password.png; sourceTree = "<group>"; };
+		4049584E1F2F07C50008C7C1 /* ic_exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_exit.png; sourceTree = "<group>"; };
+		4049584F1F2F07C50008C7C1 /* ic_less.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_less.png; sourceTree = "<group>"; };
+		404958501F2F07C50008C7C1 /* ic_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_more.png; sourceTree = "<group>"; };
+		404958511F2F07C50008C7C1 /* ic_nav_about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_about.png; sourceTree = "<group>"; };
+		404958521F2F07C50008C7C1 /* ic_nav_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_home.png; sourceTree = "<group>"; };
+		404958531F2F07C50008C7C1 /* ic_nav_order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_order.png; sourceTree = "<group>"; };
+		404958541F2F07C50008C7C1 /* ic_nav_policy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_policy.png; sourceTree = "<group>"; };
+		404958551F2F07C50008C7C1 /* ic_nav_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_profile.png; sourceTree = "<group>"; };
+		404958561F2F07C50008C7C1 /* ic_nav_review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_review.png; sourceTree = "<group>"; };
+		404958571F2F07C50008C7C1 /* ic_nav_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_share.png; sourceTree = "<group>"; };
+		404958581F2F07C50008C7C1 /* ic_nav_support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_support.png; sourceTree = "<group>"; };
+		404958591F2F07C50008C7C1 /* ic_notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_notification.png; sourceTree = "<group>"; };
+		4049585A1F2F07C50008C7C1 /* ic_remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_remove.png; sourceTree = "<group>"; };
+		4049585B1F2F07C50008C7C1 /* ic_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_search.png; sourceTree = "<group>"; };
+		4049585C1F2F07C50008C7C1 /* ic_timeslot_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_timeslot_07.png; sourceTree = "<group>"; };
+		4049585D1F2F07C50008C7C1 /* ic_timeslot_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_timeslot_17.png; sourceTree = "<group>"; };
+		4049585E1F2F07C50008C7C1 /* ic_timeslot_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_timeslot_27.png; sourceTree = "<group>"; };
+		4049585F1F2F07C50008C7C1 /* arrow_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_right.png; sourceTree = "<group>"; };
+		404958601F2F07C50008C7C1 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		404958761F2F37650008C7C1 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		404958771F2F37650008C7C1 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		4049587A1F2F49170008C7C1 /* ChoosetimeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoosetimeVC.h; sourceTree = "<group>"; };
+		4049587B1F2F49170008C7C1 /* ChoosetimeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoosetimeVC.m; sourceTree = "<group>"; };
+		4049587C1F2F49170008C7C1 /* TimeslotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeslotCell.h; sourceTree = "<group>"; };
+		4049587D1F2F49170008C7C1 /* TimeslotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeslotCell.m; sourceTree = "<group>"; };
+		404958801F2F49670008C7C1 /* CalenderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderVC.h; sourceTree = "<group>"; };
+		404958811F2F49670008C7C1 /* CalenderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderVC.m; sourceTree = "<group>"; };
+		404958841F2F7C150008C7C1 /* ChooseSocityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChooseSocityVC.h; path = Address/ChooseSocityVC.h; sourceTree = "<group>"; };
+		404958851F2F7C150008C7C1 /* ChooseSocityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChooseSocityVC.m; path = Address/ChooseSocityVC.m; sourceTree = "<group>"; };
+		404958871F2F7CD90008C7C1 /* LocalityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalityCell.h; path = Cells/LocalityCell.h; sourceTree = "<group>"; };
+		404958881F2F7CD90008C7C1 /* LocalityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalityCell.m; path = Cells/LocalityCell.m; sourceTree = "<group>"; };
+		4049588A1F2F7E6B0008C7C1 /* AddAddressVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddAddressVC.h; path = Address/AddAddressVC.h; sourceTree = "<group>"; };
+		4049588B1F2F7E6B0008C7C1 /* AddAddressVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddAddressVC.m; path = Address/AddAddressVC.m; sourceTree = "<group>"; };
+		4049588D1F2F82150008C7C1 /* DeliveryDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeliveryDetailsVC.h; path = SendOrder/DeliveryDetailsVC.h; sourceTree = "<group>"; };
+		4049588E1F2F82150008C7C1 /* DeliveryDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeliveryDetailsVC.m; path = SendOrder/DeliveryDetailsVC.m; sourceTree = "<group>"; };
+		409FE2A51F34766F0068A37B /* search_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_icon.png; sourceTree = "<group>"; };
+		409FE2A71F347F330068A37B /* SearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchVC.h; path = ProductList/SearchVC.h; sourceTree = "<group>"; };
+		409FE2A81F347F330068A37B /* SearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchVC.m; path = ProductList/SearchVC.m; sourceTree = "<group>"; };
+		409FE2AA1F349D250068A37B /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		409FE2AB1F349D250068A37B /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		409FE2AC1F349D250068A37B /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		409FE2AD1F349D250068A37B /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
+		409FE2AE1F349D250068A37B /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		409FE2AF1F349D250068A37B /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
+		409FE2B01F349D250068A37B /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		409FE2B11F349D250068A37B /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		409FE2B21F349D250068A37B /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
+		409FE2BC1F349D970068A37B /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		40DC3FB81F2DA7A900C6B9B4 /* ProductPagerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductPagerVC.h; path = ProductList/ProductPagerVC.h; sourceTree = "<group>"; };
+		40DC3FB91F2DA7A900C6B9B4 /* ProductPagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductPagerVC.m; path = ProductList/ProductPagerVC.m; sourceTree = "<group>"; };
+		40DC3FBB1F2DA9D700C6B9B4 /* ProductListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductListVC.h; path = ProductList/ProductListVC.h; sourceTree = "<group>"; };
+		40DC3FBC1F2DA9D700C6B9B4 /* ProductListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductListVC.m; path = ProductList/ProductListVC.m; sourceTree = "<group>"; };
+		40E61B3B1F2CA2490008EA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		40E61B3E1F2CA4850008EA60 /* CategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryCell.h; path = Cells/CategoryCell.h; sourceTree = "<group>"; };
+		40E61B3F1F2CA4850008EA60 /* CategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoryCell.m; path = Cells/CategoryCell.m; sourceTree = "<group>"; };
+		40F746091F3049B200CB2763 /* AddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressCell.h; path = Cells/AddressCell.h; sourceTree = "<group>"; };
+		40F7460A1F3049B200CB2763 /* AddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressCell.m; path = Cells/AddressCell.m; sourceTree = "<group>"; };
+		40F7460D1F30512200CB2763 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		40F7460E1F30512200CB2763 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		40F7460F1F30512200CB2763 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
+		40F746101F30512200CB2763 /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		40F746131F30605400CB2763 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		40F746161F30985400CB2763 /* ChangePasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordVC.h; sourceTree = "<group>"; };
+		40F746171F30985400CB2763 /* ChangePasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordVC.m; sourceTree = "<group>"; };
+		40F7461A1F30985400CB2763 /* UpdateProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateProfileVC.h; sourceTree = "<group>"; };
+		40F7461B1F30985400CB2763 /* UpdateProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateProfileVC.m; sourceTree = "<group>"; };
+		40F746221F309A3000CB2763 /* MyOrdersVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrdersVC.m; sourceTree = "<group>"; };
+		40F746231F309A3000CB2763 /* MyOrdersVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrdersVC.h; sourceTree = "<group>"; };
+		40F746251F309A4700CB2763 /* MyOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyOrderCell.h; path = Cells/MyOrderCell.h; sourceTree = "<group>"; };
+		40F746261F309A4700CB2763 /* MyOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyOrderCell.m; path = Cells/MyOrderCell.m; sourceTree = "<group>"; };
+		40F746281F30AE8E00CB2763 /* OrderDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailsVC.h; sourceTree = "<group>"; };
+		40F746291F30AE8E00CB2763 /* OrderDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailsVC.m; sourceTree = "<group>"; };
+		40F7462B1F30B2BE00CB2763 /* OrderDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderDetailsCell.h; path = Cells/OrderDetailsCell.h; sourceTree = "<group>"; };
+		40F7462C1F30B2BE00CB2763 /* OrderDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderDetailsCell.m; path = Cells/OrderDetailsCell.m; sourceTree = "<group>"; };
+		5107703407FC7F2A45FF72F5 /* Pods_GroceryStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6129745624460533007D39A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6129745824460573007D39A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		612974592446078C007D39A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6129745A24460874007D39A6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6129745B24460878007D39A6 /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6129745C24460882007D39A6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		612F2B4123FC94C500AAF531 /* Category_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Category_Cell.h; sourceTree = "<group>"; };
+		612F2B4523FC95A300AAF531 /* Category_Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Category_Cell.m; sourceTree = "<group>"; };
+		6147A4CE2490F1F00028285F /* 777.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 777.png; sourceTree = "<group>"; };
+		6149DAB424ACFA6000F4DE20 /* CatS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatS.m; sourceTree = "<group>"; };
+		6149DAB624ACFA9D00F4DE20 /* CatS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatS.h; sourceTree = "<group>"; };
+		6149DAB724ACFECD00F4DE20 /* CatSCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatSCell.h; sourceTree = "<group>"; };
+		6149DAB824ACFEE800F4DE20 /* CatSCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatSCell.m; sourceTree = "<group>"; };
+		61659D75245B056000ACE21C /* ContactUsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactUsController.m; sourceTree = "<group>"; };
+		61659D7B245B060800ACE21C /* ContactUsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactUsController.h; sourceTree = "<group>"; };
+		616A7DF9248F6AE0005A802C /* dawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dawa.jpg; sourceTree = "<group>"; };
+		616A7DFC248F6CF3005A802C /* ControleDawaa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControleDawaa.m; sourceTree = "<group>"; };
+		616A7DFF248F96C9005A802C /* ControleDawa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControleDawa.h; sourceTree = "<group>"; };
+		616F6AC7241578C90043E067 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = countries.json; path = GroceryStore/Login/countries.json; sourceTree = SOURCE_ROOT; };
+		616F6AC9241578D20043E067 /* CountryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountryCell.h; path = GroceryStore/Login/CountryCell.h; sourceTree = SOURCE_ROOT; };
+		616F6ACA241578E00043E067 /* CountryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountryCell.m; path = GroceryStore/Login/CountryCell.m; sourceTree = SOURCE_ROOT; };
+		616F6ACB241578E00043E067 /* CountryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountryListViewController.m; path = GroceryStore/Login/CountryListViewController.m; sourceTree = SOURCE_ROOT; };
+		616F6ACC241578E00043E067 /* CountryListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountryListDataSource.h; path = GroceryStore/Login/CountryListDataSource.h; sourceTree = SOURCE_ROOT; };
+		616F6ACD241578E00043E067 /* CountryListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CountryListViewController.xib; path = GroceryStore/Login/CountryListViewController.xib; sourceTree = SOURCE_ROOT; };
+		616F6ACE241578E00043E067 /* CountryListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountryListDataSource.m; path = GroceryStore/Login/CountryListDataSource.m; sourceTree = SOURCE_ROOT; };
+		616F6ACF241578E00043E067 /* CountryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountryListViewController.h; path = GroceryStore/Login/CountryListViewController.h; sourceTree = SOURCE_ROOT; };
+		61787485262ED95D00C8995B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		618B9758244320920076268D /* GroceryStore.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = GroceryStore.entitlements; sourceTree = "<group>"; };
+		618B9759244482050076268D /* swiftlogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftlogin.swift; sourceTree = "<group>"; };
+		61CEFD03248FA35500B2680E /* 5555.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5555.png; sourceTree = "<group>"; };
+		6384AE201D7954300C95EF7F /* Pods-GroceryStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroceryStore/Pods-GroceryStore.release.xcconfig"; sourceTree = "<group>"; };
+		846A6A2D2370B2FE009B7134 /* GroceryStore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GroceryStore-Bridging-Header.h"; sourceTree = "<group>"; };
+		846A6A2E2370B2FF009B7134 /* MySwiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftClass.swift; sourceTree = "<group>"; };
+		84800A3F238F2C2200DA83E3 /* MyRequestsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRequestsVC.m; sourceTree = "<group>"; };
+		84800A41238F2C4100DA83E3 /* MyRequestsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRequestsVC.h; sourceTree = "<group>"; };
+		849A1704238EEAA70025E6F9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		849A1705238EEBA20025E6F9 /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/Main.strings; sourceTree = "<group>"; };
+		849A1707238EEBA20025E6F9 /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/Localizable.strings; sourceTree = "<group>"; };
+		849A1708238EEC1E0025E6F9 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Languages/Common.h; sourceTree = "<group>"; };
+		849A1709238EEC1E0025E6F9 /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Common.m; path = Languages/Common.m; sourceTree = "<group>"; };
+		849A170B238EEDC70025E6F9 /* Languge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Languge.h; sourceTree = "<group>"; };
+		849A170C238EEDC70025E6F9 /* Languge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Languge.m; sourceTree = "<group>"; };
+		84BA9B172394185E0044F8A6 /* ProductShopPagerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductShopPagerVC.h; sourceTree = "<group>"; };
+		84BA9B18239418730044F8A6 /* ProductShopPagerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductShopPagerVC.m; sourceTree = "<group>"; };
+		84BA9B1A239418940044F8A6 /* ProductShopListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductShopListVC.m; sourceTree = "<group>"; };
+		84BA9B1C239418A10044F8A6 /* ProductShopListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductShopListVC.h; sourceTree = "<group>"; };
+		84F7A485239013C90048F4CC /* RequestDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestDetailsVC.h; sourceTree = "<group>"; };
+		84F7A486239013E90048F4CC /* RequestDetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestDetailsVC.m; sourceTree = "<group>"; };
+		89F417C958CED261CA0B0591 /* Pods-Grocery Store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grocery Store.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grocery Store/Pods-Grocery Store.debug.xcconfig"; sourceTree = "<group>"; };
+		D22DBE3A60624F2977E75943 /* Pods-Grocery Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grocery Store.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grocery Store/Pods-Grocery Store.release.xcconfig"; sourceTree = "<group>"; };
+		ED96EF3C23C53F6600E583C3 /* CartCell2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartCell2.m; sourceTree = "<group>"; };
+		ED96EF3E23C53F9700E583C3 /* CartCell2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartCell2.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		401732471F2A1A5E0084C367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E430BE1FE07698526FB6DBAE /* Pods_GroceryStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401732601F2A1A5E0084C367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4017326B1F2A1A5E0084C367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B7379DD98F3F8B69955C3A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5107703407FC7F2A45FF72F5 /* Pods_GroceryStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		401732411F2A1A5E0084C367 = {
+			isa = PBXGroup;
+			children = (
+				4017324C1F2A1A5E0084C367 /* GroceryStore */,
+				401732661F2A1A5E0084C367 /* GroceryStoreTests */,
+				401732711F2A1A5E0084C367 /* GroceryStoreUITests */,
+				4017324B1F2A1A5E0084C367 /* Products */,
+				4B3C62BCCB9B9AD53527395A /* Pods */,
+				0B7379DD98F3F8B69955C3A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4017324B1F2A1A5E0084C367 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4017324A1F2A1A5E0084C367 /* Lalbab.app */,
+				401732631F2A1A5E0084C367 /* GroceryStoreTests.xctest */,
+				4017326E1F2A1A5E0084C367 /* GroceryStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4017324C1F2A1A5E0084C367 /* GroceryStore */ = {
+			isa = PBXGroup;
+			children = (
+				61787485262ED95D00C8995B /* GoogleService-Info.plist */,
+				6149DAB324ACFA2800F4DE20 /* CatS */,
+				616A7DFB248F6CAC005A802C /* ControleDawa */,
+				61659D71245B03F300ACE21C /* ContactUs */,
+				618B9758244320920076268D /* GroceryStore.entitlements */,
+				616F6AC6241578970043E067 /* CountryList1 */,
+				4048FB1E1F31981F004666D9 /* InfoPages */,
+				40F746151F30985400CB2763 /* UserMenu */,
+				40F7460C1F30512200CB2763 /* Login */,
+				404958831F2F7B830008C7C1 /* Address */,
+				404958791F2F49170008C7C1 /* Timeslot */,
+				404958751F2F37650008C7C1 /* DrawerMenu */,
+				4049584C1F2F07BD0008C7C1 /* icons */,
+				40DC3FB41F2DA5A700C6B9B4 /* ProductList */,
+				40E61B371F2CA2030008EA60 /* Languages */,
+				40E61B331F2CA14C0008EA60 /* Cells */,
+				401732A31F2A23470084C367 /* CartVC */,
+				401732801F2A220D0084C367 /* BaseVC */,
+				401732501F2A1A5E0084C367 /* AppDelegate.h */,
+				401732511F2A1A5E0084C367 /* AppDelegate.m */,
+				401732531F2A1A5E0084C367 /* ViewController.h */,
+				401732541F2A1A5E0084C367 /* ViewController.m */,
+				401732561F2A1A5E0084C367 /* Main.storyboard */,
+				401732591F2A1A5E0084C367 /* Assets.xcassets */,
+				4017325B1F2A1A5E0084C367 /* LaunchScreen.storyboard */,
+				4017325E1F2A1A5E0084C367 /* Info.plist */,
+				4017324D1F2A1A5E0084C367 /* Supporting Files */,
+				846A6A2E2370B2FF009B7134 /* MySwiftClass.swift */,
+				846A6A2D2370B2FE009B7134 /* GroceryStore-Bridging-Header.h */,
+				849A1708238EEC1E0025E6F9 /* Common.h */,
+				849A1709238EEC1E0025E6F9 /* Common.m */,
+				849A170B238EEDC70025E6F9 /* Languge.h */,
+				849A170C238EEDC70025E6F9 /* Languge.m */,
+				618B9759244482050076268D /* swiftlogin.swift */,
+			);
+			path = GroceryStore;
+			sourceTree = "<group>";
+		};
+		4017324D1F2A1A5E0084C367 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4017324E1F2A1A5E0084C367 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		401732661F2A1A5E0084C367 /* GroceryStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				401732671F2A1A5E0084C367 /* Grocery_StoreTests.m */,
+				401732691F2A1A5E0084C367 /* Info.plist */,
+			);
+			path = GroceryStoreTests;
+			sourceTree = "<group>";
+		};
+		401732711F2A1A5E0084C367 /* GroceryStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				401732721F2A1A5E0084C367 /* Grocery_StoreUITests.m */,
+				401732741F2A1A5E0084C367 /* Info.plist */,
+			);
+			path = GroceryStoreUITests;
+			sourceTree = "<group>";
+		};
+		401732801F2A220D0084C367 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				4017329F1F2A226F0084C367 /* AsyncImageView */,
+				401732811F2A220D0084C367 /* API_Parameters.h */,
+				401732821F2A220D0084C367 /* API_Settings.h */,
+				401732831F2A220D0084C367 /* BaseCart.h */,
+				401732841F2A220D0084C367 /* BaseCart.m */,
+				401732851F2A220D0084C367 /* BaseVC.h */,
+				401732861F2A220D0084C367 /* BaseVC.m */,
+				401732871F2A220D0084C367 /* Constants.h */,
+				401732881F2A220D0084C367 /* LocalizationSystem.h */,
+				401732891F2A220D0084C367 /* LocalizationSystem.m */,
+				4017328A1F2A220D0084C367 /* LocalizeButton.h */,
+				4017328B1F2A220D0084C367 /* LocalizeButton.m */,
+				4017328C1F2A220D0084C367 /* LocalizeButton2.h */,
+				4017328D1F2A220D0084C367 /* LocalizeButton2.m */,
+				4017328E1F2A220D0084C367 /* LocalizeLabel.h */,
+				4017328F1F2A220D0084C367 /* LocalizeLabel.m */,
+				401732901F2A220D0084C367 /* MKNumberBadgeView.h */,
+				401732911F2A220D0084C367 /* MKNumberBadgeView.m */,
+				401732921F2A220D0084C367 /* Reachability.h */,
+				401732931F2A220D0084C367 /* Reachability.m */,
+				401732941F2A220D0084C367 /* RoundedTextField.h */,
+				401732951F2A220D0084C367 /* RoundedTextField.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		4017329F1F2A226F0084C367 /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				401732A01F2A226F0084C367 /* AsyncImageView.h */,
+				401732A11F2A226F0084C367 /* AsyncImageView.m */,
+			);
+			path = AsyncImageView;
+			sourceTree = "<group>";
+		};
+		401732A31F2A23470084C367 /* CartVC */ = {
+			isa = PBXGroup;
+			children = (
+				401732A41F2A23470084C367 /* CartCell.h */,
+				401732A51F2A23470084C367 /* CartCell.m */,
+				401732A61F2A23470084C367 /* CartVC.h */,
+				401732A71F2A23470084C367 /* CartVC.m */,
+				ED96EF3C23C53F6600E583C3 /* CartCell2.m */,
+				ED96EF3E23C53F9700E583C3 /* CartCell2.h */,
+			);
+			path = CartVC;
+			sourceTree = "<group>";
+		};
+		4048FB1E1F31981F004666D9 /* InfoPages */ = {
+			isa = PBXGroup;
+			children = (
+				4048FB1F1F319848004666D9 /* InfoPagesVC.h */,
+				4048FB201F319848004666D9 /* InfoPagesVC.m */,
+			);
+			name = InfoPages;
+			sourceTree = "<group>";
+		};
+		4049584C1F2F07BD0008C7C1 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				6147A4CE2490F1F00028285F /* 777.png */,
+				61CEFD03248FA35500B2680E /* 5555.png */,
+				616A7DF9248F6AE0005A802C /* dawa.jpg */,
+				409FE2BC1F349D970068A37B /* 57.png */,
+				409FE2AA1F349D250068A37B /* 29.png */,
+				409FE2AB1F349D250068A37B /* 40.png */,
+				409FE2AC1F349D250068A37B /* 58.png */,
+				409FE2AD1F349D250068A37B /* 60.png */,
+				409FE2AE1F349D250068A37B /* 80.png */,
+				409FE2AF1F349D250068A37B /* 87.png */,
+				409FE2B01F349D250068A37B /* 114.png */,
+				409FE2B11F349D250068A37B /* 120.png */,
+				409FE2B21F349D250068A37B /* 180.png */,
+				409FE2A51F34766F0068A37B /* search_icon.png */,
+				4048FB221F31D3C1004666D9 /* radio_checked.png */,
+				4048FB231F31D3C1004666D9 /* radio.png */,
+				40F746131F30605400CB2763 /* ic_launcher.png */,
+				4049584D1F2F07C50008C7C1 /* ic_change_password.png */,
+				4049584E1F2F07C50008C7C1 /* ic_exit.png */,
+				4049584F1F2F07C50008C7C1 /* ic_less.png */,
+				404958501F2F07C50008C7C1 /* ic_more.png */,
+				404958511F2F07C50008C7C1 /* ic_nav_about.png */,
+				404958521F2F07C50008C7C1 /* ic_nav_home.png */,
+				404958531F2F07C50008C7C1 /* ic_nav_order.png */,
+				404958541F2F07C50008C7C1 /* ic_nav_policy.png */,
+				404958551F2F07C50008C7C1 /* ic_nav_profile.png */,
+				404958561F2F07C50008C7C1 /* ic_nav_review.png */,
+				404958571F2F07C50008C7C1 /* ic_nav_share.png */,
+				404958581F2F07C50008C7C1 /* ic_nav_support.png */,
+				404958591F2F07C50008C7C1 /* ic_notification.png */,
+				4049585A1F2F07C50008C7C1 /* ic_remove.png */,
+				4049585B1F2F07C50008C7C1 /* ic_search.png */,
+				4049585C1F2F07C50008C7C1 /* ic_timeslot_07.png */,
+				4049585D1F2F07C50008C7C1 /* ic_timeslot_17.png */,
+				4049585E1F2F07C50008C7C1 /* ic_timeslot_27.png */,
+				4049585F1F2F07C50008C7C1 /* arrow_right.png */,
+				404958601F2F07C50008C7C1 /* cart.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		404958751F2F37650008C7C1 /* DrawerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				404958761F2F37650008C7C1 /* LeftMenuViewController.h */,
+				404958771F2F37650008C7C1 /* LeftMenuViewController.m */,
+			);
+			path = DrawerMenu;
+			sourceTree = "<group>";
+		};
+		404958791F2F49170008C7C1 /* Timeslot */ = {
+			isa = PBXGroup;
+			children = (
+				404958801F2F49670008C7C1 /* CalenderVC.h */,
+				404958811F2F49670008C7C1 /* CalenderVC.m */,
+				4049587A1F2F49170008C7C1 /* ChoosetimeVC.h */,
+				4049587B1F2F49170008C7C1 /* ChoosetimeVC.m */,
+				4049587C1F2F49170008C7C1 /* TimeslotCell.h */,
+				4049587D1F2F49170008C7C1 /* TimeslotCell.m */,
+			);
+			path = Timeslot;
+			sourceTree = "<group>";
+		};
+		404958831F2F7B830008C7C1 /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				404958841F2F7C150008C7C1 /* ChooseSocityVC.h */,
+				404958851F2F7C150008C7C1 /* ChooseSocityVC.m */,
+				4049588A1F2F7E6B0008C7C1 /* AddAddressVC.h */,
+				4049588B1F2F7E6B0008C7C1 /* AddAddressVC.m */,
+				4049588D1F2F82150008C7C1 /* DeliveryDetailsVC.h */,
+				4049588E1F2F82150008C7C1 /* DeliveryDetailsVC.m */,
+				4048FB261F32194A004666D9 /* ConfirmDeliveryVC.h */,
+				4048FB271F32194A004666D9 /* ConfirmDeliveryVC.m */,
+				4023C52F1F32DDCE0045DBF8 /* ThanksScreenVC.h */,
+				4023C5301F32DDCE0045DBF8 /* ThanksScreenVC.m */,
+			);
+			name = Address;
+			sourceTree = "<group>";
+		};
+		40DC3FB41F2DA5A700C6B9B4 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				40DC3FB81F2DA7A900C6B9B4 /* ProductPagerVC.h */,
+				84BA9B172394185E0044F8A6 /* ProductShopPagerVC.h */,
+				84BA9B18239418730044F8A6 /* ProductShopPagerVC.m */,
+				40DC3FB91F2DA7A900C6B9B4 /* ProductPagerVC.m */,
+				40DC3FBB1F2DA9D700C6B9B4 /* ProductListVC.h */,
+				84BA9B1A239418940044F8A6 /* ProductShopListVC.m */,
+				84BA9B1C239418A10044F8A6 /* ProductShopListVC.h */,
+				40DC3FBC1F2DA9D700C6B9B4 /* ProductListVC.m */,
+				409FE2A71F347F330068A37B /* SearchVC.h */,
+				409FE2A81F347F330068A37B /* SearchVC.m */,
+			);
+			name = ProductList;
+			sourceTree = "<group>";
+		};
+		40E61B331F2CA14C0008EA60 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				40F746251F309A4700CB2763 /* MyOrderCell.h */,
+				40F746261F309A4700CB2763 /* MyOrderCell.m */,
+				40F746091F3049B200CB2763 /* AddressCell.h */,
+				40F7460A1F3049B200CB2763 /* AddressCell.m */,
+				404958871F2F7CD90008C7C1 /* LocalityCell.h */,
+				404958881F2F7CD90008C7C1 /* LocalityCell.m */,
+				40E61B3E1F2CA4850008EA60 /* CategoryCell.h */,
+				40E61B3F1F2CA4850008EA60 /* CategoryCell.m */,
+				40F7462B1F30B2BE00CB2763 /* OrderDetailsCell.h */,
+				40F7462C1F30B2BE00CB2763 /* OrderDetailsCell.m */,
+				612F2B4123FC94C500AAF531 /* Category_Cell.h */,
+				612F2B4523FC95A300AAF531 /* Category_Cell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		40E61B371F2CA2030008EA60 /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				40E61B3C1F2CA2490008EA60 /* Localizable.strings */,
+			);
+			name = Languages;
+			sourceTree = "<group>";
+		};
+		40F7460C1F30512200CB2763 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				616F6AC7241578C90043E067 /* countries.json */,
+				616F6AC9241578D20043E067 /* CountryCell.h */,
+				616F6ACA241578E00043E067 /* CountryCell.m */,
+				616F6ACC241578E00043E067 /* CountryListDataSource.h */,
+				616F6ACE241578E00043E067 /* CountryListDataSource.m */,
+				616F6ACF241578E00043E067 /* CountryListViewController.h */,
+				616F6ACB241578E00043E067 /* CountryListViewController.m */,
+				616F6ACD241578E00043E067 /* CountryListViewController.xib */,
+				40F7460D1F30512200CB2763 /* LoginVC.h */,
+				40F7460E1F30512200CB2763 /* LoginVC.m */,
+				40F7460F1F30512200CB2763 /* RegisterVC.h */,
+				40F746101F30512200CB2763 /* RegisterVC.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		40F746151F30985400CB2763 /* UserMenu */ = {
+			isa = PBXGroup;
+			children = (
+				40F746221F309A3000CB2763 /* MyOrdersVC.m */,
+				40F746231F309A3000CB2763 /* MyOrdersVC.h */,
+				84800A3F238F2C2200DA83E3 /* MyRequestsVC.m */,
+				84800A41238F2C4100DA83E3 /* MyRequestsVC.h */,
+				40F746161F30985400CB2763 /* ChangePasswordVC.h */,
+				40F746171F30985400CB2763 /* ChangePasswordVC.m */,
+				40F7461A1F30985400CB2763 /* UpdateProfileVC.h */,
+				40F7461B1F30985400CB2763 /* UpdateProfileVC.m */,
+				40F746281F30AE8E00CB2763 /* OrderDetailsVC.h */,
+				40F746291F30AE8E00CB2763 /* OrderDetailsVC.m */,
+				84F7A485239013C90048F4CC /* RequestDetailsVC.h */,
+				84F7A486239013E90048F4CC /* RequestDetailsVC.m */,
+			);
+			path = UserMenu;
+			sourceTree = "<group>";
+		};
+		4B3C62BCCB9B9AD53527395A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89F417C958CED261CA0B0591 /* Pods-Grocery Store.debug.xcconfig */,
+				D22DBE3A60624F2977E75943 /* Pods-Grocery Store.release.xcconfig */,
+				20BDFE4917F06BCED4CCABF3 /* Pods-GroceryStore.debug.xcconfig */,
+				6384AE201D7954300C95EF7F /* Pods-GroceryStore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6149DAB324ACFA2800F4DE20 /* CatS */ = {
+			isa = PBXGroup;
+			children = (
+				6149DAB424ACFA6000F4DE20 /* CatS.m */,
+				6149DAB624ACFA9D00F4DE20 /* CatS.h */,
+				6149DAB724ACFECD00F4DE20 /* CatSCell.h */,
+				6149DAB824ACFEE800F4DE20 /* CatSCell.m */,
+			);
+			path = CatS;
+			sourceTree = "<group>";
+		};
+		61659D71245B03F300ACE21C /* ContactUs */ = {
+			isa = PBXGroup;
+			children = (
+				61659D75245B056000ACE21C /* ContactUsController.m */,
+				61659D7B245B060800ACE21C /* ContactUsController.h */,
+			);
+			path = ContactUs;
+			sourceTree = "<group>";
+		};
+		616A7DFB248F6CAC005A802C /* ControleDawa */ = {
+			isa = PBXGroup;
+			children = (
+				616A7DFC248F6CF3005A802C /* ControleDawaa.m */,
+				616A7DFF248F96C9005A802C /* ControleDawa.h */,
+			);
+			path = ControleDawa;
+			sourceTree = "<group>";
+		};
+		616F6AC6241578970043E067 /* CountryList1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CountryList1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		401732491F2A1A5E0084C367 /* GroceryStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401732771F2A1A5E0084C367 /* Build configuration list for PBXNativeTarget "GroceryStore" */;
+			buildPhases = (
+				6D65C86C6E7AADAB9F6C2E4A /* [CP] Check Pods Manifest.lock */,
+				401732461F2A1A5E0084C367 /* Sources */,
+				401732471F2A1A5E0084C367 /* Frameworks */,
+				401732481F2A1A5E0084C367 /* Resources */,
+				716A198F39F075076E5C05E9 /* [CP] Embed Pods Frameworks */,
+				5D13D3FD0E29E70DA47A035E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroceryStore;
+			productName = "Grocery Store";
+			productReference = 4017324A1F2A1A5E0084C367 /* Lalbab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		401732621F2A1A5E0084C367 /* GroceryStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4017327A1F2A1A5E0084C367 /* Build configuration list for PBXNativeTarget "GroceryStoreTests" */;
+			buildPhases = (
+				4017325F1F2A1A5E0084C367 /* Sources */,
+				401732601F2A1A5E0084C367 /* Frameworks */,
+				401732611F2A1A5E0084C367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				401732651F2A1A5E0084C367 /* PBXTargetDependency */,
+			);
+			name = GroceryStoreTests;
+			productName = "Grocery StoreTests";
+			productReference = 401732631F2A1A5E0084C367 /* GroceryStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4017326D1F2A1A5E0084C367 /* GroceryStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4017327D1F2A1A5E0084C367 /* Build configuration list for PBXNativeTarget "GroceryStoreUITests" */;
+			buildPhases = (
+				4017326A1F2A1A5E0084C367 /* Sources */,
+				4017326B1F2A1A5E0084C367 /* Frameworks */,
+				4017326C1F2A1A5E0084C367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				401732701F2A1A5E0084C367 /* PBXTargetDependency */,
+			);
+			name = GroceryStoreUITests;
+			productName = "Grocery StoreUITests";
+			productReference = 4017326E1F2A1A5E0084C367 /* GroceryStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		401732421F2A1A5E0084C367 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Way;
+				TargetAttributes = {
+					401732491F2A1A5E0084C367 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7S2RL7464X;
+						LastSwiftMigration = 1110;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					401732621F2A1A5E0084C367 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 401732491F2A1A5E0084C367;
+					};
+					4017326D1F2A1A5E0084C367 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 401732491F2A1A5E0084C367;
+					};
+				};
+			};
+			buildConfigurationList = 401732451F2A1A5E0084C367 /* Build configuration list for PBXProject "GroceryStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				fa,
+			);
+			mainGroup = 401732411F2A1A5E0084C367;
+			productRefGroup = 4017324B1F2A1A5E0084C367 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				401732491F2A1A5E0084C367 /* GroceryStore */,
+				401732621F2A1A5E0084C367 /* GroceryStoreTests */,
+				4017326D1F2A1A5E0084C367 /* GroceryStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		401732481F2A1A5E0084C367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404958661F2F07C50008C7C1 /* ic_nav_home.png in Resources */,
+				4048FB251F31D3C1004666D9 /* radio.png in Resources */,
+				409FE2B51F349D250068A37B /* 58.png in Resources */,
+				4048FB241F31D3C1004666D9 /* radio_checked.png in Resources */,
+				4049586C1F2F07C50008C7C1 /* ic_nav_support.png in Resources */,
+				409FE2B91F349D250068A37B /* 114.png in Resources */,
+				616F6AC8241578C90043E067 /* countries.json in Resources */,
+				409FE2A61F34766F0068A37B /* search_icon.png in Resources */,
+				409FE2B41F349D250068A37B /* 40.png in Resources */,
+				4017325D1F2A1A5E0084C367 /* LaunchScreen.storyboard in Resources */,
+				404958701F2F07C50008C7C1 /* ic_timeslot_07.png in Resources */,
+				409FE2BB1F349D250068A37B /* 180.png in Resources */,
+				404958611F2F07C50008C7C1 /* ic_change_password.png in Resources */,
+				404958741F2F07C50008C7C1 /* cart.png in Resources */,
+				4049586D1F2F07C50008C7C1 /* ic_notification.png in Resources */,
+				4049586F1F2F07C50008C7C1 /* ic_search.png in Resources */,
+				40E61B3A1F2CA2490008EA60 /* Localizable.strings in Resources */,
+				404958671F2F07C50008C7C1 /* ic_nav_order.png in Resources */,
+				404958721F2F07C50008C7C1 /* ic_timeslot_27.png in Resources */,
+				409FE2B81F349D250068A37B /* 87.png in Resources */,
+				4017325A1F2A1A5E0084C367 /* Assets.xcassets in Resources */,
+				404958641F2F07C50008C7C1 /* ic_more.png in Resources */,
+				409FE2B71F349D250068A37B /* 80.png in Resources */,
+				409FE2BA1F349D250068A37B /* 120.png in Resources */,
+				409FE2B31F349D250068A37B /* 29.png in Resources */,
+				404958731F2F07C50008C7C1 /* arrow_right.png in Resources */,
+				40F746141F30605400CB2763 /* ic_launcher.png in Resources */,
+				6147A4CF2490F1F10028285F /* 777.png in Resources */,
+				404958691F2F07C50008C7C1 /* ic_nav_profile.png in Resources */,
+				4049586B1F2F07C50008C7C1 /* ic_nav_share.png in Resources */,
+				616F6AD2241578E00043E067 /* CountryListViewController.xib in Resources */,
+				404958631F2F07C50008C7C1 /* ic_less.png in Resources */,
+				404958711F2F07C50008C7C1 /* ic_timeslot_17.png in Resources */,
+				404958651F2F07C50008C7C1 /* ic_nav_about.png in Resources */,
+				409FE2BD1F349D970068A37B /* 57.png in Resources */,
+				616A7DFA248F6AE1005A802C /* dawa.jpg in Resources */,
+				61CEFD04248FA35600B2680E /* 5555.png in Resources */,
+				401732581F2A1A5E0084C367 /* Main.storyboard in Resources */,
+				404958621F2F07C50008C7C1 /* ic_exit.png in Resources */,
+				404958681F2F07C50008C7C1 /* ic_nav_policy.png in Resources */,
+				4049586A1F2F07C50008C7C1 /* ic_nav_review.png in Resources */,
+				61787486262ED95D00C8995B /* GoogleService-Info.plist in Resources */,
+				4049586E1F2F07C50008C7C1 /* ic_remove.png in Resources */,
+				409FE2B61F349D250068A37B /* 60.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401732611F2A1A5E0084C367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4017326C1F2A1A5E0084C367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D13D3FD0E29E70DA47A035E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GroceryStore/Pods-GroceryStore-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GroceryStore/Pods-GroceryStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D65C86C6E7AADAB9F6C2E4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GroceryStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		716A198F39F075076E5C05E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GroceryStore/Pods-GroceryStore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseAuth/FirebaseAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseFirestore/FirebaseFirestore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstanceID/FirebaseInstanceID.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseMessaging/FirebaseMessaging.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/JTCalendar/JTCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/abseil/absl.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseFirestore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstanceID.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/absl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GroceryStore/Pods-GroceryStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		401732461F2A1A5E0084C367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849A170A238EEC1E0025E6F9 /* Common.m in Sources */,
+				40F7462D1F30B2BE00CB2763 /* OrderDetailsCell.m in Sources */,
+				616A7DFD248F6CF3005A802C /* ControleDawaa.m in Sources */,
+				401732551F2A1A5E0084C367 /* ViewController.m in Sources */,
+				616F6AD3241578E00043E067 /* CountryListDataSource.m in Sources */,
+				401732521F2A1A5E0084C367 /* AppDelegate.m in Sources */,
+				404958891F2F7CD90008C7C1 /* LocalityCell.m in Sources */,
+				40F7461C1F30985400CB2763 /* ChangePasswordVC.m in Sources */,
+				6149DAB924ACFEE800F4DE20 /* CatSCell.m in Sources */,
+				616F6AD0241578E00043E067 /* CountryCell.m in Sources */,
+				401732961F2A220D0084C367 /* BaseCart.m in Sources */,
+				6149DAB524ACFA6000F4DE20 /* CatS.m in Sources */,
+				612F2B4623FC95A300AAF531 /* Category_Cell.m in Sources */,
+				616F6AD1241578E00043E067 /* CountryListViewController.m in Sources */,
+				401732A91F2A23470084C367 /* CartVC.m in Sources */,
+				40DC3FBD1F2DA9D700C6B9B4 /* ProductListVC.m in Sources */,
+				4049587F1F2F49170008C7C1 /* TimeslotCell.m in Sources */,
+				4017329E1F2A220D0084C367 /* RoundedTextField.m in Sources */,
+				4049587E1F2F49170008C7C1 /* ChoosetimeVC.m in Sources */,
+				4049588F1F2F82150008C7C1 /* DeliveryDetailsVC.m in Sources */,
+				404958861F2F7C150008C7C1 /* ChooseSocityVC.m in Sources */,
+				40F746241F309A3000CB2763 /* MyOrdersVC.m in Sources */,
+				40F746271F309A4700CB2763 /* MyOrderCell.m in Sources */,
+				4017329D1F2A220D0084C367 /* Reachability.m in Sources */,
+				40F7460B1F3049B200CB2763 /* AddressCell.m in Sources */,
+				4017329C1F2A220D0084C367 /* MKNumberBadgeView.m in Sources */,
+				40E61B401F2CA4850008EA60 /* CategoryCell.m in Sources */,
+				61659D76245B056000ACE21C /* ContactUsController.m in Sources */,
+				84800A40238F2C2200DA83E3 /* MyRequestsVC.m in Sources */,
+				4023C5311F32DDCE0045DBF8 /* ThanksScreenVC.m in Sources */,
+				401732971F2A220D0084C367 /* BaseVC.m in Sources */,
+				401732991F2A220D0084C367 /* LocalizeButton.m in Sources */,
+				4017329A1F2A220D0084C367 /* LocalizeButton2.m in Sources */,
+				401732A81F2A23470084C367 /* CartCell.m in Sources */,
+				84BA9B19239418730044F8A6 /* ProductShopPagerVC.m in Sources */,
+				ED96EF3D23C53F6600E583C3 /* CartCell2.m in Sources */,
+				40DC3FBA1F2DA7A900C6B9B4 /* ProductPagerVC.m in Sources */,
+				404958821F2F49670008C7C1 /* CalenderVC.m in Sources */,
+				4048FB211F319848004666D9 /* InfoPagesVC.m in Sources */,
+				4049588C1F2F7E6B0008C7C1 /* AddAddressVC.m in Sources */,
+				401732A21F2A226F0084C367 /* AsyncImageView.m in Sources */,
+				4017324F1F2A1A5E0084C367 /* main.m in Sources */,
+				40F7461E1F30985400CB2763 /* UpdateProfileVC.m in Sources */,
+				4017329B1F2A220D0084C367 /* LocalizeLabel.m in Sources */,
+				849A170D238EEDC70025E6F9 /* Languge.m in Sources */,
+				618B975A244482050076268D /* swiftlogin.swift in Sources */,
+				401732981F2A220D0084C367 /* LocalizationSystem.m in Sources */,
+				40F7462A1F30AE8E00CB2763 /* OrderDetailsVC.m in Sources */,
+				84F7A487239013E90048F4CC /* RequestDetailsVC.m in Sources */,
+				409FE2A91F347F330068A37B /* SearchVC.m in Sources */,
+				4048FB281F32194A004666D9 /* ConfirmDeliveryVC.m in Sources */,
+				40F746111F30512200CB2763 /* LoginVC.m in Sources */,
+				84BA9B1B239418940044F8A6 /* ProductShopListVC.m in Sources */,
+				40F746121F30512200CB2763 /* RegisterVC.m in Sources */,
+				846A6A2F2370B2FF009B7134 /* MySwiftClass.swift in Sources */,
+				404958781F2F37650008C7C1 /* LeftMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4017325F1F2A1A5E0084C367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401732681F2A1A5E0084C367 /* Grocery_StoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4017326A1F2A1A5E0084C367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401732731F2A1A5E0084C367 /* Grocery_StoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		401732651F2A1A5E0084C367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 401732491F2A1A5E0084C367 /* GroceryStore */;
+			targetProxy = 401732641F2A1A5E0084C367 /* PBXContainerItemProxy */;
+		};
+		401732701F2A1A5E0084C367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 401732491F2A1A5E0084C367 /* GroceryStore */;
+			targetProxy = 4017326F1F2A1A5E0084C367 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		401732561F2A1A5E0084C367 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				401732571F2A1A5E0084C367 /* Base */,
+				849A1705238EEBA20025E6F9 /* fa */,
+				6129745824460573007D39A6 /* en */,
+				6129745C24460882007D39A6 /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4017325B1F2A1A5E0084C367 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4017325C1F2A1A5E0084C367 /* Base */,
+				6129745624460533007D39A6 /* en */,
+				6129745A24460874007D39A6 /* ar */,
+				6129745B24460878007D39A6 /* fa */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		40E61B3C1F2CA2490008EA60 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E61B3B1F2CA2490008EA60 /* Base */,
+				849A1704238EEAA70025E6F9 /* ar */,
+				849A1707238EEBA20025E6F9 /* fa */,
+				612974592446078C007D39A6 /* en */,
+			);
+			name = Localizable.strings;
+			path = Languages;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		401732751F2A1A5E0084C367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IBSC_MODULE = Lalbab;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		401732761F2A1A5E0084C367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IBSC_MODULE = Lalbab;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		401732781F2A1A5E0084C367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BDFE4917F06BCED4CCABF3 /* Pods-GroceryStore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = GroceryStore/GroceryStore.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 32;
+				DEVELOPMENT_TEAM = 7S2RL7464X;
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				IBSC_MODULE = Lalbab;
+				INFOPLIST_FILE = GroceryStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alaanlimited.lalbab;
+				PRODUCT_NAME = Lalbab;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GroceryStore/GroceryStore-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		401732791F2A1A5E0084C367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6384AE201D7954300C95EF7F /* Pods-GroceryStore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = GroceryStore/GroceryStore.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 32;
+				DEVELOPMENT_TEAM = 7S2RL7464X;
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				IBSC_MODULE = Lalbab;
+				INFOPLIST_FILE = GroceryStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alaanlimited.lalbab;
+				PRODUCT_NAME = Lalbab;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GroceryStore/GroceryStore-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4017327B1F2A1A5E0084C367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Grocery StoreTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Grocery-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroceryStore.app/GroceryStore";
+			};
+			name = Debug;
+		};
+		4017327C1F2A1A5E0084C367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Grocery StoreTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Grocery-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroceryStore.app/GroceryStore";
+			};
+			name = Release;
+		};
+		4017327E1F2A1A5E0084C367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Grocery StoreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Grocery-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Grocery Store";
+			};
+			name = Debug;
+		};
+		4017327F1F2A1A5E0084C367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Grocery StoreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Grocery-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Grocery Store";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		401732451F2A1A5E0084C367 /* Build configuration list for PBXProject "GroceryStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401732751F2A1A5E0084C367 /* Debug */,
+				401732761F2A1A5E0084C367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		401732771F2A1A5E0084C367 /* Build configuration list for PBXNativeTarget "GroceryStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401732781F2A1A5E0084C367 /* Debug */,
+				401732791F2A1A5E0084C367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4017327A1F2A1A5E0084C367 /* Build configuration list for PBXNativeTarget "GroceryStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4017327B1F2A1A5E0084C367 /* Debug */,
+				4017327C1F2A1A5E0084C367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4017327D1F2A1A5E0084C367 /* Build configuration list for PBXNativeTarget "GroceryStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4017327E1F2A1A5E0084C367 /* Debug */,
+				4017327F1F2A1A5E0084C367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 401732421F2A1A5E0084C367 /* Project object */;
+}

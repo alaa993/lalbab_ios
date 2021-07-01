@@ -1,0 +1,172 @@
+/*
+  Localizable.strings
+  Grocery Store
+
+  Created by subhashsanghani on 7/29/17.
+  Copyright © 2017 Way. All rights reserved.
+*/
+
+
+"My Requests" = "داواكاريةكان";
+"My Shop" = "دوكانةكةم";
+"Edit" = "كؤرين";
+"Note seler" = "تيَبيني فرؤشيار";
+"Note" = "تيَبيني";
+
+"lg" = "fa";
+"Error!" = "هەڵەیەك هەبە";
+"Loading" = "باركردن";
+"Ok" = "باشە";
+"Empty" = "بەتاڵ";
+"Internet!" = "!ئینتەرنێت";
+"Confirm" = "دڵنیام";
+"No" = "نەخێر";
+"Remove" = "سڕینەوە";
+"Cancel" = "هەڵوەشاندنەوە";
+"Success" = "سەركەوتوبوو";
+"Grocery Store" = "Lalbab";
+"Glocery" = "Lalbab";
+"Lalbab" = "Lalbab";
+"Phone" = "مۆبایل";
+"Name" = "ناو";
+"Code" = "كؤد";
+
+"Is Live" = "كالا هەيە";
+"Offline" = "كالا نەماوە";
+
+
+"User" = "بەكارهێنەر";
+"No internet connection available.." = "ئینتەرنیت بەردەست نییە..";
+"New Address" = "ناونیشانی نوێ";
+"Please Enter Address" = "تكایە ناونیشانەكەت بنووسە";
+"Please Choose Socity" = "كۆمەڵگاكەت هەڵبژێرە";
+"No any items in your Cart" = "هیچ بەرهەمێكت هەلنەبژاردوەە";
+"Language Preference" = "ڕێكخستنی زمان";
+"Select your preferred language" = "زمانەكەت هەڵبژێرە";
+"Choose Date" = "بەروار هەڵبژێرە";
+"Date must be greater than current date" = "بەواری هەڵبژێردراو پێویستە لەبەرواری ئەمرۆ لەپێشتر بێت";
+"Total" = "گشتی";
+"Cart" = "سەبەتە";
+"Empty Cart" = "سەبەتەكەت بەتاڵە";
+"Are you sure to remove all items from cart" = "دڵنیای لەسڕینەوەی هەموو بەرهەمەكان لەناو سەبەتە؟";
+"Item" = "بەرهەم";
+"Price per" = "نرخ بۆهەر یەك";
+"Order Limit" = "داواكردنی سنووردار";
+"Order must between" = "داواكاریەكە پێویستە لەنێوان";
+"To" = "بۆ";
+
+
+
+"Change Password" = "گۆڕینی وشەی نهێنی";
+"Please Enter Current Password" = "وشەی نهێنی ئێستات بنووسە";
+"Please Enter New Password" = "وشەی نهێنی نوێ بنووسە";
+"Please Enter New Password Again" = "دووبارە وشەی نهێنی نوێ بنووسە";
+"Please Enter New Password Again not march with New Password" = "وشە نهێنیە نوێیەكان هاوتانین";
+"Choose Socity" = "كۆمەڵگاكەت هەڵبژێرە";
+"Choose Time" = "كات دیاری بكە";
+"Receiver Name" = "ناوی وەرگر";
+"Receiver Mobile No." = "ژ.مۆبایلی وەرگر";
+"Pincode" = "ناونیشان :";
+"House No." = "ژ.خانوو";
+"Socity" = "كۆمەڵگا";
+"Items" = "بەرهەمەكان";
+"Amount" = "بڕ";
+
+
+
+
+
+"Delivery Charges" = "كریێ گەیاندن";
+"Total Amount" = "بڕی گشتی";
+"Please Choose Delivery Date" = "بەرواری گەیاندن دیاری بكە";
+"Please Choose Delivery Time" = "كاتی گەیاندن دیاری بكە";
+"Please Choose Delivery Location" = "شوێنی گەیاندن دیاری بكە";
+"Delivery" = "گەیاندن";
+"Delivery Date" = "بەرواری گەیاندن";
+"Delivery Time" = "كاتی گەیاندن";
+"Address" = "ناونیشان";
+
+
+"My Profile" = "هەژمارەكەم";
+"My Orders" = "داواكاریەكانم";
+"Logout" = "دەرچوون";
+"Login Now" = "چوونەدەرەوە";
+"Support" = "هێلێ پشتگیری";
+"About Us" = "دەربارەی ئێمە";
+"Terms & Condition" = "ڕێسا و مەرجەكان";
+"Review Us" = "هەڵمانبسەنگێنە";
+"Share with Friends" = "بینێرە بۆهاوڕێكانت";
+"Are you sure wont to logout ?" = "دڵنیای لەدەرچوون";
+
+
+
+"Please Enter Password" = "وشەی نهێنی بنووسە";
+"Please Enter User Name" = "ناوی بەكارهێنەر بنووسە";
+"Recovery Mail Sent Successfully to your registered email" = "ئیمەیڵی گەڕاندنەوە ناردرا بۆ ئیمەیڵەكەت";
+"Order No." = "ژ.داواكاری";
+
+"Languge" = "زمان";
+
+
+"Date" = "بەروار";
+"Time" = "كات";
+"Pending" = "لەچاوەڕوانی";
+"Confirm" = "دلنیاكرایەوە";
+"Delivered" = "گەیاندرا";
+"Cancel Order" = "هەڵوەشاندنەوەی داواكاری";
+"Order Details" = "زانیاری داواكاری";
+"Qty" = "بڕ";
+"Search" = "گەڕان";
+"Add" = "زیادكردن";
+"Update" = "نوێكردنەوە";
+"Register" = "نۆماركردن";
+"Please Enter Phone Number" = "ژمارە بۆمایل بنووسە";
+"Please Enter Password" = "وشەی نهێنی بنووسە";
+"Please Enter User Name" = "ناوی بەكارهێنەر بنووسە";
+"Please Enter Email Id" = "ئیمەیڵەكەت بنووسە";
+"Update Profile" = "نوێكردنەوەی هەژمار";
+
+"CONTINUE CHECKOUT" = "بەردەوامبوون لەداواكاری";
+"Delivery Date :" = "بەرواری گەیاندن :";
+"Delivery Time :" = "كاتی گەیاندن :";
+"Delivery Address" = "ناونیشانی گەیاندن";
+
+"Receiver Name(Required)" = "ناوی وەرگر :";
+"Receiver Mobile Number(Required)" = "ژ.مۆبایلی وەرگر";
+"Pincode/Area Code/Zip (Required)" = "ناونیشان";
+"Society/Flat(Required)" = "كۆمەڵگا";
+"House Number(Required)" = "ژ.خانوو";
+"ADD DELIVERY ADDRESS" = "زیادكردنی ناونیشانی گەیاندن";
+
+"Delivery Date and Time" = "كات/بەرواری گەیاندن";
+"Total items and amount" = "تەواوی بەرهەم و بڕ";
+"ORDER NOW" = "ئێستا داوابكە";
+"Thank you for your order." = "سوپاس بۆ داواكاریەكەت.";
+"CONTINUE HOME" = "چوونەوە پەڕەی سەرەكی";
+"TRACK MY ORDER" = "پشكنینی داواكاری";
+
+"Email address" = "ئیمەیڵ";
+"Password" = "وشەی نهێنی";
+"LOGIN NOW" = "چوونە ژوورەوە";
+
+"REGISTER NEW USER" = "تۆماركرنی بەكارهێنەری نوێ";
+"FORGOT MY PASSWORD" = "گەڕاندنەوەی وشەی نهێنی";
+
+"Register Now" = "تۆماركردن";
+"Your full name" = "ناوی تەواو";
+"Your phone" = "ژمارە مۆبایل";
+"Create password" = "وشەی نهینی";
+"UPDATE" = "نوێكردنەوە";
+"Cancel Order" = "هەڵوەشاندنەوەی داواكاری";
+"Summery" = "هەمووی";
+
+"Current Password" = "وشەی نهێنی ئێستا";
+"New Password" = "وشەی نهێنی نوێ";
+"Re Enter Password" = "دووبارە وشەی نهێنی";
+
+"Search Vegetables, Fruit etc.." = "گەڕان بەدوای بەرهەم";
+"Products" = "بەرهەمەكان";
+
+"Clear All Products" = "سڕینەوەی قەرتاڵە";
+"Home" = "پەیجی سەرەکی";
+"Contact us" = "Contact us";

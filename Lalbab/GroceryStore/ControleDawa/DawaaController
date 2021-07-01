@@ -1,0 +1,22 @@
+//
+//  ControleDawa.h
+//  GroceryStore
+//
+//  Created by alaa on 6/9/20.
+//  Copyright © 2020 Way. All rights reserved.
+//
+
+#ifndef ControleDawa_h
+#define ControleDawa_h
+#import <UIKit/UIKit.h>
+#import "BaseVC.h"
+
+#endif /* ControleDawa_h */
+@interface DawaaController : NSObject 
+@property (weak, nonatomic) IBOutlet UIButton *btnWhatsappD;
+
+
+
+
+
+@end

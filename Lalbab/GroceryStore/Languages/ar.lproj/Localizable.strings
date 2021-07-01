@@ -1,0 +1,165 @@
+/*
+  Localizable.strings
+  Grocery Store
+
+  Created by subhashsanghani on 7/29/17.
+  Copyright © 2017 Way. All rights reserved.
+*/
+
+"lg" = "ar";
+"Error!" = "خطأ!";
+"Loading" = "جاري التحميل";
+"Ok" = "نعم";
+"Empty" = "فارغة";
+"Internet!" = "الإنترنت!";
+"Confirm" = "تأكيد";
+"No" = "لا";
+"Remove" = "حذف";
+"Cancel" = "إلغاء";
+"Success" = "بنجاح";
+"Grocery Store" = "Lalbab";
+"Glocery" = "Lalbab";
+"Lalbab" = "Lalbab";
+"Phone" = "هاتف";
+"Name" = "اسم";
+"Code" = "كود";
+
+"Is Live" = "موجود";
+"Offline" = "غير موجود";
+
+"Failed" = "خطأ";
+"Failed Internet" = "خطأ في الانترنت" ;
+
+
+
+"My Requests" = "طلبات مستخدمين";
+"My Shop" = "محل";
+"Edit" = "تعديل";
+"Note seler" = "ملاحظة المحل";
+"Note" = "ملاحظة";
+"Order Changed" = "";
+"The order Changed successfully" = "تم تغير الطلب";
+
+"User" = "مستخدم";
+"No internet connection available.." = "لا يوجد اتصال بالانترنيت";
+"New Address" = "عنوان جديد";
+"Please Enter Address" = "الرجاء إدخال العنوان";
+"Please Choose Socity" = "الرجاء اختيار المجمع";
+"No any items in your Cart" = "لا يوجد أي سلع في سلة التسوق الخاصة بك";
+"Language Preference" = "تفضيل اللغات";
+"Select your preferred language" = "اختر لغتك المفضلة";
+"Choose Date" = "Choose Date";
+"Date must be greater than current date" = "يجب أن يكون التاريخ أكبر من التاريخ الحالي";
+"Total" = "مجموع";
+"Cart" = "عربة التسوق";
+"Empty Cart" = "عربة فارغة";
+"Are you sure to remove all items from cart" = "هل أنت متأكد من إزالة جميع العناصر من السلة؟";
+"Item" = "العنصر";
+"Price per" = "السعر لكل";
+"Order Limit" = "حد الطلب";
+"Order must between" = "يجب أن النظام بين";
+"To" = "إلى";
+"Change Password" = "تغيير كلمة المرور";
+"Please Enter Current Password" = "يرجى إدخال كلمة المرور الحالية";
+"Please Enter New Password" = "يرجى إدخال كلمة مرور جديدة";
+"Please Enter New Password Again" = "يرجى إدخال كلمة مرور جديدة مرة أخرى";
+"Please Enter New Password Again not march with New Password" = "الرجاء إدخال كلمة مرور جديدة مرة أخرى وليس السير بكلمة مرور جديدة";
+"Choose Socity" = "اختر المجمع";
+"Choose Time" = "اختر الوقت";
+"Receiver Name" = "الاسم";
+"Receiver Mobile No." = "رقم الموبايل";
+"Pincode" = "العنوان : ";
+"House No." = "رقم الدار";
+"Socity" = "المجمع";
+"Items" = "العناصر";
+"Amount" = "السعر";
+"Delivery Charges" = "رقم موبايل ";
+"Total Amount" = "المبلغ الإجمالي";
+"Please Choose Delivery Date" = "يرجى اختيار تاريخ التسليم";
+"Please Choose Delivery Time" = "الرجاء اختيار وقت التسليم";
+"Please Choose Delivery Location" = "الرجاء اختيار موقع التسليم";
+"Delivery" = "توصيل";
+"Delivery Date" = "تاريخ التسليم";
+"Delivery Time" = "موعد التسليم";
+"Address" = "عنوان";
+
+"My Profile" = "الملف الشخصي";
+"My Orders" = "طلباتي";
+"Logout" = "تسجيل الخروج";
+"Login Now" = "تسجيل الدخول";
+"Support" = "الدعم";
+
+"About Us" = "معلومات عنا";
+"Terms & Condition" = "الشروط والاحكام";
+
+"Review Us" = "تقييم";
+"Share with Friends" = "مشاركة";
+
+"Are you sure wont to logout ?" = "تسجيل الخروج";
+
+"Please Enter Password" = "يرجى إدخال كلمة المرور";
+"Please Enter User Name" = "الرجاء إدخال اسم المستخدم";
+"Recovery Mail Sent Successfully to your registered email" = "تم إرسال بريد الاسترداد بنجاح إلى بريدك الإلكتروني المسجل";
+"Order No." = "رقم الطلب.";
+
+"Date" = "الوقت";
+"Time" = "عنوان ";
+"Pending" = "قيد الانتظار";
+"Confirm" = "تم القبول";
+"Delivered" = "تم التوصيل";
+"Cancel Order" = "إلغاء";
+"Order Details" = "حذف";
+"Qty" = "الكمية";
+"Search" = "بحث";
+"Add" = "إضافة";
+"Update" = "تحديث";
+"Register" = "تسجيل";
+"Please Enter Phone Number" = "الرجاء إدخال رقم الهاتف";
+"Please Enter Password" = "يرجى إدخال كلمة المرور";
+"Please Enter User Name" = "الرجاء إدخال اسم المستخدم";
+"Please Enter Email Id" = "يرجى إدخال معرف البريد الإلكتروني";
+"Update Profile" = "تحديث الملف الشخصي";
+
+"CONTINUE CHECKOUT" = "استمر في الضغط";
+"Delivery Date :" = "تاريخ الوصول :";
+"Delivery Time :" = "موعد التسليم :";
+"Delivery Address" = "عنوان : ";
+
+"Receiver Name(Required)" = "الاسم : ";
+"Receiver Mobile Number(Required)" = "رقم الموبايل ";
+"Pincode/Area Code/Zip (Required)" = "عنوان ";
+"Society/Flat(Required)" = "مجمع / شقة (مطلوب)";
+"House Number(Required)" = "رقم الدار ";
+"ADD DELIVERY ADDRESS" = "اضافة عنوان";
+
+"Delivery Date and Time" = "تاريخ / وقت التسليم";
+"Total items and amount" = "مجموع البنود والمبلغ";
+"ORDER NOW" = "اطلب الان";
+"Thank you for your order." = "شكرا لطلبك.";
+"CONTINUE HOME" = "الرجوع الى الصفحة الرئيسية";
+"TRACK MY ORDER" = "تابع طلبي";
+"Languge" = "اللغة";
+
+"Email address" = "عنوان البريد الالكترونى";
+"Password" = "كلمة المرور";
+"LOGIN NOW" = "تسجيل الدخول";
+"REGISTER NEW USER" = "انشاء حساب";
+"FORGOT MY PASSWORD" = "نسيت كلمة المرور الخاصة بي";
+
+"Register Now" =  "انشاء حساب";
+"Your full name" = "الاسم ";
+"Your phone" = "رقم موبايل";
+"Create password" = "أنشئ كلمة مرور";
+"UPDATE" = "تحديث";
+"Cancel Order" = "الغاء الطلب";
+"Summery" = "صيفي";
+
+"Current Password" = "كلمة السر الحالية";
+"New Password" = "كلمة مرور جديدة";
+"Re Enter Password" = "إعادة إدخال كلمة المرور";
+
+"Search Vegetables, Fruit etc.." = "البحث عن الخضروات والفواكه وغيرها ..";
+"Products" = "المحلات";
+"Clear All Products" = "مسح السلة";
+"Home" = "الصفحة الرئيسية";
+"Contact us" = "التواصل معنا";
